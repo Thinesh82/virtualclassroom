@@ -7,9 +7,9 @@ app.secret_key = 'temporary_key'
 
 def get_db_connection():
     return mysql.connector.connect(
-        host='clonedb.c9426io2qnef.us-east-1.rds.amazonaws.com',
+        host='clonedb.cp4g68msmepl.us-east-1.rds.amazonaws.com',
         user='admin',
-        password='gokulakrishnan30505',
+        password='qwertyuiopasdfghjkl12345',
         database='clone_db'
     )
 
